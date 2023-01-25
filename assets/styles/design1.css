@@ -1,0 +1,27 @@
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    height: 150pt;
+    background-image: url(../img/design1_image1.jpg);
+    background-size: cover;
+    background-position:center;
+}
+header h1{
+    font-size: 40pt;
+    color:yellowgreen;
+    text-shadow: 3px 3px rgb(54, 54, 54);
+}
+header img{
+    background-color: grey;
+    opacity: 90%;
+    scale: 40%;
+    position: absolute;
+    right: 100px;
+    top: 120px;
+}
+h2{
+    color: white;
+    text-align: center;
+    background-color: black;    
+}
