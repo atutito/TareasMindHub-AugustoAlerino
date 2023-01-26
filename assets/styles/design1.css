@@ -28,9 +28,10 @@ header img{
 }
 nav{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-top: 150px;
     width: 200px;
+    vertical-align: top;
 }
 nav a{
     text-decoration: none;
@@ -52,15 +53,19 @@ h2{
     background-color: black;    
     margin: 0;
 }
+h3{
+    margin: 5px 0;
+    font-size: 20pt;
+}
 main{
     display: inline-block;
     width: 500px;
     margin-left: 200px;
-    margin-top: 150px;
     text-align: justify;
+    margin-top: 100px;
+    vertical-align: middle;
 }
 main img{
-    display: inline-block;
     position:fixed;
     right: 100px;
     top: 400px;
