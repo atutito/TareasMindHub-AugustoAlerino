@@ -30,7 +30,7 @@ header img{
 nav{
     top: 60px;
     position: absolute;
-    left: 950px;
+    right: 50px;
 }
 nav a{
     padding: 5px;
