@@ -30,20 +30,18 @@ nav{
     display: inline-block;
     margin-left: 70px;
     margin-top: 150px;
-    width: 200px;
     vertical-align: top;
 }
 nav a{
-    text-decoration: none;
     display: block;
     box-sizing: content-box;
     margin-top: 30px;
 }
 nav a:hover{
-    color: white;
-    background-color: black;
+    color: black;
+    text-decoration: none;
 }
-nav a:link:active{
+nav a.active{
     color: black;
     text-decoration: none;
 }
@@ -60,15 +58,15 @@ h3{
 main{
     display: inline-block;
     width: 500px;
-    margin-left: 200px;
+    margin-left: 70px;
     text-align: justify;
-    margin-top: 100px;
+    margin-top: 150px;
     vertical-align: middle;
 }
 main img{
     position:fixed;
     right: 100px;
-    top: 400px;
+    top: 300px;
     opacity: 60%;
     height: 300px;
     width: fit-content;
