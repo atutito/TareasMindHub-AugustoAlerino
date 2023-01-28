@@ -30,7 +30,7 @@ header img{
 nav{
     top: 60px;
     position: absolute;
-    left: 950px;
+    right: 50px;
 }
 nav a{
     padding: 5px;
@@ -47,7 +47,7 @@ nav a:hover{
     background-color: forestgreen;
     border: 1px solid black;
 }
-nav a:active{
+.BotonActivo{
     color: white;
     background-color: forestgreen;
     border: 1px solid black;

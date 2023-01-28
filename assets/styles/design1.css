@@ -41,7 +41,7 @@ nav a:hover{
     color: black;
     text-decoration: none;
 }
-nav a.active{
+.BotonActivo{
     color: black;
     text-decoration: none;
 }
