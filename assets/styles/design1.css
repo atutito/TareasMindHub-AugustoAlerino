@@ -70,4 +70,5 @@ main img{
     opacity: 60%;
     height: 300px;
     width: fit-content;
+    z-index: -1;
 }
