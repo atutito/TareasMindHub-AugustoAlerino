@@ -35,10 +35,11 @@ nav{
     top: 235px;
     position: absolute;
     right: 50px;
+    flex-wrap: nowrap;
 }
 nav a{
     padding: 5px;
-    font-size: 1vw;
+    font-size: 12pt;
     color: white;
     text-decoration: none;
     vertical-align: middle;
@@ -70,6 +71,7 @@ h4{
     text-indent: 30px;
 }
 main{
+    display: flexbox;
     margin-left: 230px;
     margin-right: 300px;
     text-align:justify;
@@ -113,7 +115,8 @@ tr, td{
 h{
     font-weight: 900;
     text-decoration: underline;
+    line-height: 1.5;
 }
 .Email{
-    margin-left: 550px;
+    float: right;
 }
