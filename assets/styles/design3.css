@@ -16,7 +16,8 @@ header{
 }
 header h1{
     font-family: 'Aboreto', cursive;
-    font-size: 60pt;
+    font-size: 4.5vw;
+    flex-wrap: nowrap;
     color:yellowgreen;
     position: absolute;
     left: 300px;
@@ -37,7 +38,7 @@ nav{
 }
 nav a{
     padding: 5px;
-    font-size: 14pt;
+    font-size: 1vw;
     color: white;
     text-decoration: none;
     vertical-align: middle;
@@ -71,11 +72,11 @@ h4{
 main{
     margin-left: 230px;
     margin-right: 300px;
-    text-align:start;
+    text-align:justify;
     margin-top: 120px;
     color: black;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 ol{
     margin-left: 30px;
@@ -90,10 +91,10 @@ ol{
     margin-left: 50px;
 }
 main img{
-    position: fixed;
+    position:fixed;
     width: auto;
     transform: translateX(-230px) translateY(-75px);
-    opacity: 50%;
+    opacity: 40%;
     z-index: -1;
     border-top: 2px solid black;
 }
