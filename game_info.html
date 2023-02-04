@@ -18,6 +18,7 @@
         <a href="./index.html">Home</a>
         <a href="./about.html">About MDHL</a>
         <a class="BotonActivo" href="#">Game Information</a>
+        <a href="./registration.html">Registration</a>
         <a href="./rules.html">Rules</a>
         <a href="./contact.html">Contact</a>
     </nav>
@@ -25,6 +26,10 @@
         <img src="./assets/img/hockey_5.jpg" alt="Hockey 5" width="300">
         <p style="text-decoration: underline;">*All games take place on Saturday</p>
         <br>
+        <div id="iframeHolder" style="
+        position: absolute;
+        margin-left: 800px; 
+        margin-top: 30px;"></div>
         <table>
             <thead>
             <tr>
@@ -38,51 +43,159 @@
             <tr>
                 <td rowspan="3">9/01</td>
                 <td>U1 and u4</td>
-                <td>AJ Katzenmaier</td>
+                <td>AJ Katzenmaier 
+                    <button id="button1">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button1').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.657018148541!2d-87.63125808426186!3d41.900232772007286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ%20Katzenmaier%20Elementary!5e0!3m2!1ses!2sar!4v1675479535186!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script> 
+                </td>
                 <td>9:30 a.m.</td>
             </tr>
             <tr>
                 <td>U3 and U2</td>
-                <td>Greenbay</td>
+                <td>Greenbay
+                <button id="button2">Map</button>
+                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                <script type="text/javascript">
+                    $(function(){
+                        $('#button2').click(function(){ 
+                            if(!$('#iframe').length) {
+                                    $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0227959923036!2d-87.64002218426155!3d41.91386867115345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay%20Elementary!5e0!3m2!1ses!2sar!4v1675480959489!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                            }
+                        });   
+                    });
+                    </script>
+                </td>
                 <td>1:00 p.m.</td>
             </tr>
             <tr>
                 <td>U5 and U6</td>
-                <td>Howard A Yeager</td>
+                <td>Howard A Yeager
+                    <button id="button3">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button3').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.269876673848!2d-87.85606978425267!3d42.31544224591019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses!2sar!4v1675481384971!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>9:30 a.m.</td>
             </tr>
             <tr>
                 <td rowspan="2">9/08</td>
                 <td>U6 and U1</td>
-                <td>Marjorie P Hart</td>
+                <td>Marjorie P Hart
+                    <button id="button4">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button4').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536436683!2d-87.64816138426123!3d41.9296268701664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses!2sar!4v1675482091510!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>1:00 p.m.</td>
             </tr>
             <tr>
                 <td>U2 and U4</td>
-                <td>North</td>
+                <td>North
+                    <button id="button5">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button5').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3353630140427!2d-87.6483115842617!3d41.907148871574364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af14860a5%3A0x5736e62f19086c62!2sNorth%20Elementary!5e0!3m2!1ses!2sar!4v1675482202505!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>9:30 a.m.</td>
             </tr>
             <tr>
                 <td rowspan="2">9/15</td>
                 <td>U3 and U5</td>
-                <td>AJ Katzenmaier</td>
+                <td>AJ Katzenmaier                    
+                    <button id="button6">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button6').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.657018148541!2d-87.63125808426186!3d41.900232772007286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ%20Katzenmaier%20Elementary!5e0!3m2!1ses!2sar!4v1675479535186!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>1:00 p.m.</td>
             </tr>
             <tr>
                 <td>U1 and U3</td>
-                <td>South</td>
+                <td>South
+                    <button id="button7">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button7').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.070449739336!2d-87.88823348425925!3d42.020221064486854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fb7ad3c474b63%3A0x93bdf85af2a839ed!2sSOUTH%20ELEMENTARY%20SCHOOL!5e0!3m2!1ses!2sar!4v1675482647184!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>9:30 a.m.</td>
             </tr>
             <tr>
                 <td rowspan="1">9/22</td>
                 <td>U2 and U6</td>
-                <td>Howard A Yeager</td>
+                <td>Howard A Yeager
+                    <button id="button8">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button8').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.269876673848!2d-87.85606978425267!3d42.31544224591019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses!2sar!4v1675481384971!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>1:00 p.m.</td>
             </tr>
             <tr>
                 <td rowspan="1">9/29</td>
                 <td>U4 and U5</td>
-                <td>Greenbay</td>
+                <td>Greenbay
+                    <button id="button9">Map</button>
+                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script type="text/javascript">
+                        $(function(){
+                            $('#button9').click(function(){ 
+                                if(!$('#iframe').length) {
+                                        $('#iframeHolder').html('<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0227959923036!2d-87.64002218426155!3d41.91386867115345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay%20Elementary!5e0!3m2!1ses!2sar!4v1675480959489!5m2!1ses!2sar" width="450" height="330" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>');
+                                }
+                            });   
+                        });
+                        </script>
+                </td>
                 <td>9:30 a.m.</td>
             </tr>
             </tbody>
