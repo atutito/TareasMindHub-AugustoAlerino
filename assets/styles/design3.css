@@ -119,8 +119,7 @@ h{
     float: right;
 }
 #button, #button1, #button2, #button3, #button4, #button5, #button6, #button7, #button8, #button9{
-  background-color: initial;
-  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  background-color: rgb(58, 58, 58);
   border-radius: 3px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
   color: #FFFFFF;
@@ -141,6 +140,9 @@ h{
   margin-left: 20px;
   float: right;
 }
+form{
+    transform:translateY(-15px) ;
+}
 form fieldset{
     margin: 10px 0px;
     border: none;
@@ -150,3 +152,24 @@ form fieldset{
 form label, form input{
     margin: 3px;
 }
+#submit{
+    background-color: rgb(58, 58, 58);
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    z-index: 9;
+    border: 0;
+    padding: 5px;
+    margin-left: 70px;
+  }
