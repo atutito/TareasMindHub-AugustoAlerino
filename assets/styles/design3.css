@@ -141,16 +141,17 @@ h{
   float: right;
 }
 form{
-    transform:translateY(-15px) ;
+    transform:translateY(-15px);
 }
 form fieldset{
-    margin: 10px 0px;
+    font-family: 'Aboreto', cursive;
+    margin: 10px 0px 5px 0px;
     border: none;
     font-size: 20px;
-    text-shadow: 1px 1px black;
 }
 form label, form input{
-    margin: 3px;
+    margin-top: 5px;
+    margin-left: 3px;
 }
 #submit{
     background-color: rgb(58, 58, 58);
@@ -172,4 +173,9 @@ form label, form input{
     border: 0;
     padding: 5px;
     margin-left: 70px;
-  }
+}
+.campo{
+    display: inline;
+    position: absolute;
+    left: 370px;
+}
