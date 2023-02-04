@@ -5,7 +5,7 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
 }
 header{
@@ -140,4 +140,12 @@ h{
   padding: 3px;
   margin-left: 20px;
   float: right;
+}
+form fieldset{
+    margin: 10px 0px;
+    border: none;
+    font-size: 20px;
+}
+form label, form input{
+    margin: 3px;
 }
