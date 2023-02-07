@@ -90,6 +90,11 @@ ol{
 .Coach{
     margin-left: 50px;
 }
+#iframeHolder{
+    position:absolute;
+    margin-left: 800px;
+    margin-top: 30px;
+}
 main img{
     position:fixed;
     width: auto;
@@ -110,7 +115,8 @@ tr, td{
     padding: 10px 20px 0px 30px;
     vertical-align: top;    
 }
-h{
+p{
+    display: inline-block;
     font-weight: 900;
     text-decoration: underline;
     line-height: 1.5;

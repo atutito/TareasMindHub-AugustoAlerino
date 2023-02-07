@@ -26,10 +26,7 @@
         <img src="./assets/img/hockey_5.jpg" alt="Hockey 5" width="300">
         <p style="text-decoration: underline;">*All games take place on Saturday</p>
         <br>
-        <div id="iframeHolder" style="
-        position: absolute;
-        margin-left: 800px; 
-        margin-top: 30px;"></div>
+        <div id="iframeHolder"></div>
         <table>
             <thead>
             <tr>
@@ -45,8 +42,8 @@
                 <td>U1 and u4</td>
                 <td>AJ Katzenmaier 
                     <button id="button1">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button1').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -62,8 +59,8 @@
                 <td>U3 and U2</td>
                 <td>Greenbay
                 <button id="button2">Map</button>
-                <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                <script type="text/javascript">
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                <script>
                     $(function(){
                         $('#button2').click(function(){ 
                             if(!$('#iframe').length) {
@@ -79,8 +76,8 @@
                 <td>U5 and U6</td>
                 <td>Howard A Yeager
                     <button id="button3">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button3').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -97,8 +94,8 @@
                 <td>U6 and U1</td>
                 <td>Marjorie P Hart
                     <button id="button4">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button4').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -114,8 +111,8 @@
                 <td>U2 and U4</td>
                 <td>North
                     <button id="button5">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button5').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -132,8 +129,8 @@
                 <td>U3 and U5</td>
                 <td>AJ Katzenmaier                    
                     <button id="button6">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button6').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -149,8 +146,8 @@
                 <td>U1 and U3</td>
                 <td>South
                     <button id="button7">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button7').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -167,8 +164,8 @@
                 <td>U2 and U6</td>
                 <td>Howard A Yeager
                     <button id="button8">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button8').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -185,8 +182,8 @@
                 <td>U4 and U5</td>
                 <td>Greenbay
                     <button id="button9">Map</button>
-                    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
-                    <script type="text/javascript">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script>
                         $(function(){
                             $('#button9').click(function(){ 
                                 if(!$('#iframe').length) {
@@ -200,12 +197,10 @@
             </tr>
             </tbody>
         </table>
-        <tfoot>
-        <h>Facility type: </h>Outdoor <br>
-        <h>Additional Information:</h> deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions. <br>
-        <h>Please direct all questions to:</h> Michael Randall, League Coordinator. <br>
-        <h>Phone:</h> (630) 690-8132 <div class="Email"><h>Email:</h> <a href="mailto:michael.randal@chihockey.org"> michael.randall@chihockey.org</a></div>
-        </tfoot>
+        <p>Facility type:</p> Outdoor <br>
+        <p>Additional Information:</p> deemed necessary by MDHL games may be shortened or cancelled due to extreme weather conditions. <br>
+        <p>Please direct all questions to:</p> Michael Randall, League Coordinator. <br>
+        <p>Phone:</p> (630) 690-8132 <div class="Email"><p>Email:</p> <a href="mailto:michael.randal@chihockey.org"> michael.randall@chihockey.org</a></div>
     </main>
 </body>
 </html>
