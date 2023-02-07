@@ -23,8 +23,8 @@
         <a href="./contact.html">Contact</a>
     </nav>
     <main>
-        <img src="./assets/img/hockey_2.jpg" alt="Hockey 2" width="300">
-        <form action="./assets/show_data.html" method="get">
+        <img src="./assets/img/hockey_6.jpg" alt="Hockey 6" width="300">
+        <form action="./assets/show_data.html" method="get" id="Registration">
                 <label for="Name">Player's First Name:</label>
                 <input type="text" name =name id="Name">
                 <div class="campo"><label for="Surname">Last Name:</label>
@@ -39,63 +39,59 @@
                 <input type="date" name="birth" id="birth">
                 <div class="campo"><label for="gender">Gender:</label>
                 <label for="gender">Female</label>
-                <input type="radio" name="gender" id="female">
+                <input type="radio" name="gender" id="female" value="fem">
                 <label for="gender">Male</label>
-                <input type="radio" name="gender" id="male"></div><br>
-                <label for="grade" >Grade:</label>
-                <input type="radio" name= "grade" id="pre">
+                <input type="radio" name="gender" id="male" value="male"></div><br>
+                <label for="grade" >Grade:</label>                
+                <input type="radio" name= "grade" value="pre">
                 <label for="pre">Pre-School</label>
-                <input type="radio" name="grade" id="1">
+                <input type="radio" name="grade" value="1">
                 <label for="1">1st</label>
-                <input type="radio" name="grade" id="2">
+                <input type="radio" name="grade" value="2">
                 <label for="2">2nd</label>
-                <input type="radio" name="grade" id="3">
+                <input type="radio" name="grade" value="3">
                 <label for="3">3rd</label>
-                <input type="radio" name="grade" id="4">
+                <input type="radio" name="grade" value="4">
                 <label for="4">4th</label>
-                <input type="radio" name="grade" id="5">
+                <input type="radio" name="grade" value="5">
                 <label for="5">5th</label>
             <fieldset>Which Elementary School do you live near?</fieldset>
-                <label for="school">Closest School:</label><br>
-                <input type="checkbox" name="school" id="AJ">
-                <label for="AJ">AJ Katzenmaier</label>
-                <div class="campo"><input type="checkbox" name="school" id="Marjorie">
-                <label for="Marjorie">Marjorie P Hart</label></div><br>
-                <input type="checkbox" name="school" id="Greenbay">
-                <label for="Greenbay">Greenbay</label>
-                <div class="campo"><input type="checkbox" name="school" id="North">
-                <label for="North">North Elementary</label></div><br>
-                <input type="checkbox" name="school" id="Howard">
-                <label for="Howard">Howard A Yeager</label>
-                <div class="campo"><input type="checkbox" name="school" id="South">
-                <label for="South">South Elementary</label></div>
+                <label for="school">Closest School:</label>
+                <select name="School" id="school" form="Registration">
+                <option value="AJ">AJ Katzenmaier</option>
+                <option value="Hart">Marjorie P Hart</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="North">North Elementary</option>
+                <option value="Yeager">Howard A Yeager</option>
+                <option value="South">South Elementary</option>
+                </select>
             <fieldset>What Position(s) do you normally play? (check all that apply)</fieldset>
-                <input type="checkbox" id="fw">
+                <input type="checkbox" id="fw" name="fw" value="fw">
                 <label for="fw">Forward</label>
-                <div class="campo"><input type="checkbox" id="mf">
+                <div class="campo"><input type="checkbox" name="mf" value="mf">
                 <label for="mf">Midfield</label></div><br>
-                <input type="checkbox" id="def">
+                <input type="checkbox" id="def" name="def" value="def">
                 <label for="def">Defense</label>
-                <div class="campo"><input type="checkbox" id="gkeep">
+                <div class="campo"><input type="checkbox" name="gkeep" value="gkeep">
                 <label for="gkeep">Goalkeeper</label></div><br>
             <fieldset>Uniform Size:</fieldset>
-                <input type="radio" name="Uniform" id="ysmall">
+                <input type="radio" name="Uniform" value="ysmall">
                 <label for="Uniform">Youth Small</label>
-                <div class="campo"><input type="radio" name="Uniform" id="Medium">
+                <div class="campo"><input type="radio" name="Uniform" value="Medium">
                 <label for="Uniform">Medium</label></div><br>
-                <input type="radio" name="Uniform" id="ymedium">
+                <input type="radio" name="Uniform" value="ymedium">
                 <label for="Uniform">Youth Medium</label>
-                <div class="campo"><input type="radio" name="Uniform" id="large">
+                <div class="campo"><input type="radio" name="Uniform" value="large">
                 <label for="Uniform">Large</label></div><br>
-                <input type="radio" name="Uniform" id="ylarge">
+                <input type="radio" name="Uniform" value="ylarge">
                 <label for="Uniform">Youth Large</label>
-                <div class="campo"><input type="radio" name="Uniform" id="xlarge">
+                <div class="campo"><input type="radio" name="Uniform" value="xlarge">
                 <label for="Uniform">Extra Large</label></div><br>
-                <input type="radio" name="Uniform" id="small">
+                <input type="radio" name="Uniform" value="small">
                 <label for="Uniform">Small</label>
             <fieldset>Permission to Play</fieldset>
-                I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey program and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation <br>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.
-                <label for="sign">Parent/Guardian Signature:</label>
+                I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey program and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation <br>By entering my name below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the cancellation policy and agree to its terms.<br>
+                <label for="sign">Parent/Guardian Name:</label>
                 <input type="text" name="sign"><br>
                 <label for="date">Date:</label>
                 <input type="datetime-local">
